@@ -6,4 +6,8 @@ class ApplicationController < ActionController::Base
   def hello
     render text: "hello, CyberSyn!"
   end
+  
+  def goodbye
+    render text: "Goodbye, Cybersyn!"
+  end
 end
